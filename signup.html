@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="signup.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="return validate()">
+      <label for="text">Enter UserName:</label>
+      <input type="text" id="usrname" name="user_name" />
+      <br /><br /><!--br is a void tag-->
+      <label for="password">Enter Password:</label>
+      <input type="password" id="pass" name="pass_word" />
+      <br /><br />
+      <label for="password">Conform Password:</label>
+      <input type="password" id="conpass" name="cnfpass_word" />
+      <br /><br />
+      <label for="mobileno">Mobile Number:</label>
+      <input type="tel" id="mobile" name="mobileno" />
+      <br /><br />
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
